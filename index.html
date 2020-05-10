@@ -1,0 +1,93 @@
+<html>
+
+<!-- Inicio Cabeçalho -->
+
+<head>
+
+<title>mybnb</title>
+
+<link rel="stylesheet" href="style.css"/>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<!-- Fim Cabeçalho -->
+
+<!--Inicio Corpo-->
+<body>
+    <div class="container-fluid">
+        
+        <!--Inicio navbar-->
+
+
+        <nav class="navbar navbar-light  fixed-top" id="nav">
+          
+          <a class="navbar-brand" href="index.html">
+            <img src="imagens/mybnbLogo2.png" width="120" height="50" alt="">
+          </a>
+          
+          <nav class="nav nav-pills justify-content-end">
+
+            <a class="nav-item nav-link" href="index.html" id="home">Pagina Inicial</a>
+            <a class="nav-item nav-link active" href="#" id="sobre">Sobre</a>
+                       
+          </nav>
+
+        </nav>
+          <!--Fim navbar-->
+
+          <!--inicio barra pesquisa-->
+         
+          <div class="card" id="barraPesquisa">
+            <div class="card-body row justify-content-md-center">
+              
+              <div class="col-md-2">
+                <input class="form-control" type="text" placeholder="Adicionar Local">
+              </div>
+
+              <div class="col-md-2">
+                <input class="form-control" type="date" value="2011-08-19" id="date-input">
+              </div>
+
+              <div class="col-md-2">
+                <input class="form-control" type="date" value="2011-08-19" id="date-input">
+              </div>
+
+              <div class="col-md-2">
+                <button id="botaoBarraPesquisa" type="button" class="btn btn-info">buscar</button>
+              </div>
+
+          
+            </div>
+          </div>
+         
+          <!--Fim barra pesquisa-->
+        
+          <!--Inicio dos cards-->
+
+          <div class="card-deck" id="cards">
+
+          </div>
+
+          <!--Fim dos cards-->
+
+          <!--Inicio rodape-->
+
+          <div id="rodapé">
+            <p id="textoRodape"> &copy; 2020, Mybnb. All rights reserved. Desenvolvido por Yasmim Nascimento.</p>
+
+          </div>
+          <!--Inicio rodape-->
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+      
+        <script src="script.js"></script>
+    </div>
+</body>
+<!--Fim Corpo-->
+</html>
